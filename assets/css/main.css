@@ -5028,8 +5028,23 @@ a img {
     margin: 0 auto
 }
 
+#achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto
+}
+
 @media only screen and (min-width:550px) {
     #projects {
+        width: 80%
+    }
+}
+
+@media only screen and (min-width:550px) {
+    #achievements {
         width: 80%
     }
 }
