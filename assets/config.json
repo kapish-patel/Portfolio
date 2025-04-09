@@ -1,0 +1,88 @@
+{
+    "username": "kapish Patel",
+    "email": "kapishmanojpatel@gmail.com",
+    "Phone": "+91-1234567890",
+    "experiences": [
+        {
+            "ID": 1,
+            "company": "CivicPlus",
+            "position": "Software Engineer",
+            "duration": "June 2020 - Present",
+            "responsibilities": [
+                "Developed and maintained web applications using React and Node.js.",
+                "Collaborated with cross-functional teams to define, design, and ship new features.",
+                "Optimized application performance and ensured responsiveness."
+            ],
+            "skills": [
+                "React",
+                "Node.js",
+                "JavaScript",
+                "HTML/CSS",
+                "Git"
+            ]
+        },
+        {
+            "ID": 2,
+            "company": "SportsExcitement",
+            "position": "Intern",
+            "duration": "Jan 2020 - May 2020",
+            "responsibilities": [
+                "Assisted in the development of a mobile application using Flutter.",
+                "Conducted testing and debugging to ensure application functionality."
+            ],
+            "skills": [
+                "Flutter",
+                "Dart",
+                "Testing",
+                "Debugging"
+            ]
+        },
+        {
+            "ID": 3,
+            "company": "Seattle University",
+            "position": "Junior Developer",
+            "duration": "June 2018 - Dec 2019",
+            "responsibilities": [
+                "Contributed to the development of internal tools using Python and Django.",
+                "Participated in code reviews and maintained documentation for the codebase."
+            ],
+            "skills": [
+                "Python",
+                "Django",
+                "Code Reviews",
+                "Documentation"
+            ]
+        },
+        {
+            "ID": 4,
+            "company": "Seattle University",
+            "position": "Web Developer",
+            "duration": "Jan 2017 - May 2018",
+            "responsibilities": [
+                "Developed custom websites for small businesses using HTML, CSS, and JavaScript.",
+                "Provided ongoing maintenance and updates to client websites."
+            ],
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Client Management"
+            ]
+        },
+        {
+            "ID": 5,
+            "company": "Acute Informatics",
+            "position": "Web Developer",
+            "duration": "June 2016 - Dec 2016",
+            "responsibilities": [
+                "Created and deployed several personal projects to enhance web development skills.",
+                "Learned to manage the full development lifecycle from concept to deployment."
+            ],
+            "skills": [
+                "Web Development",
+                "Project Management",
+                "Full Development Lifecycle"
+            ]
+        }
+    ]
+}

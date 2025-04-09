@@ -5,6 +5,7 @@
   <link rel="icon" href="./assets/img/KP_crop.png" />
   <title>Kapish Patel</title>
   <link rel="stylesheet" href="./assets/css/main.css" />
+  <script src="./assets/js/main.js" ></script>
 </head>
 
 <body>
@@ -72,22 +73,49 @@
   <div class="container">
     <div class="experience-text-container">
       <h1>Experience</h1>
-      <div class="exp-list-btns">
-        <div class="list-container">
-          <ul>
-            <li>
-              <input type="button" class="exp-input" value="CivicPlus" />
-            </li>
-            <li>
-              <input type="button" class="exp-input" value="CivicPlus" />
-            </li>
-            <li>
-              <input type="button" class="exp-input" value="CivicPlus" />
-            </li>
-            <li>
-              <input type="button" class="exp-input" value="CivicPlus" />
-            </li>
-          </ul>
+      <div class="exp-content-container">
+        <div class="exp-list-btns">
+          <div class="list-container">
+            <ul>
+              <li>
+                <input type="button" class="exp-input" value="CivicPlus" onclick="updateExpDescription(1)" />
+              </li>
+              <li>
+                <input type="button" class="exp-input" value="CivicPlus" onclick="updateExpDescription(2)"/>
+              </li>
+              <li>
+                <input type="button" class="exp-input" value="CivicPlus" onclick="updateExpDescription(3)"/>
+              </li>
+              <li>
+                <input type="button" class="exp-input" value="CivicPlus" onclick="updateExpDescription(4)"/>
+              </li>
+              <li>
+                <input type="button" class="exp-input" value="CivicPlus" onclick="updateExpDescription(5)"/>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-desc-container" id="experience-container">
+          <div class="pos-com-container">
+            <h2 id="exp-position-company"></h2>
+          </div>
+          <div class="timeline-container">
+            <p id="exp-date"></p>
+          </div>
+          <div class="description-container">
+            <p id="exp-description">
+            </p>
+          </div>
+          <div class="skills-container">
+            <ul>
+              <li id="exp-skills-1"></li>
+              <li id="exp-skills-2"></li>
+              <li id="exp-skills-3"></li>
+              <li id="exp-skills-4"></li>
+              <li id="exp-skills-5"></li>
+              <li id="exp-skills-6"></li>
+            </ul>
+          </div>
         </div>
       </div>
       </p>
