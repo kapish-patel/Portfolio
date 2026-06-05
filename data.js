@@ -53,7 +53,7 @@ const portfolioData = {
 
     education: [
         {
-            id: "edu-uni",
+            id: "edu-seattle-u",
             institution: "Seattle University",
             degree: "Master of Science in Computer Science",
             badge: "SEATTLE UNIVERSITY — 2022–2024",
@@ -65,7 +65,7 @@ const portfolioData = {
             ]
         },
         {
-            id: "edu-uni",
+            id: "edu-ganpat-u",
             institution: "Ganpat University",
             degree: "Bachelor of Science in Information Technology, Major: Infrastructure and Cloud Computing",
             badge: "GANPAT UNIVERSITY — 2018–2021",

@@ -869,6 +869,7 @@ body{
 }
 
 .beyondcode-card {
+    position: relative;
     background-color: white;
     border: 2px solid var(--color-text);
     box-shadow: 6px 6px 0px var(--color-text);
@@ -912,6 +913,31 @@ body{
     font-weight: 900;
     letter-spacing: 0.08em;
     margin-top: auto;
+}
+
+.construction-tag {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 4px 8px;
+    font-size: 0.62rem;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #f28c28;
+    border: 2px solid var(--color-text);
+    box-shadow: 2px 2px 0px var(--color-text);
+}
+
+.beyondcode-card.is-under-construction {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.88;
+}
+
+.beyondcode-card.is-under-construction:hover {
+    transform: none;
+    box-shadow: 6px 6px 0px var(--color-text);
 }
 
 /* ── Subpage styles ── */
