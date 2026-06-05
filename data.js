@@ -8,9 +8,9 @@ const portfolioData = {
             badge: "CIVICPLUS — 2025",
             icon: "💼",
             bullets: [
-                "Data analysis and visualization with Python, SQL, Tableau",
-                "Cleaned and processed datasets to extract actionable insights",
-                "Designed interactive Tableau dashboards for decision-making"
+                "Developed, maintained, and owned end-to-end features for Recreation Management and Passlight(financial dashboard) SaaS-based platform enabling local governments to manage recreational activities, facilities and analyze cost recovery and overall financial health",
+                "Architected and integrated cross-functional systems — including authentication, payments, and document management — across a distributed microservices environment",
+                "Designed and implemented a cost-efficient scheduling algorithm for facility scheduling, optimizing resource allocation and reducing operational overhead"
             ]
         },
         {
@@ -20,9 +20,9 @@ const portfolioData = {
             badge: "SPORTS EXCITEMENT — 2024",
             icon: "💼",
             bullets: [
-                "Bullet point one",
-                "Bullet point two",
-                "Bullet point three"
+                "Collaborated directly with the founder to design and architect a sports-based social platform from the ground up, translating early-stage vision into a functional prototype",
+                "Built core matchmaking and discovery features enabling users to find and connect with others for recreational sports activities across a variety of sports",
+                "Navigated a fast-paced startup environment, making key technical decisions around stack, architecture, and UX to deliver a working product under tight constraints"
             ]
         },
         {
@@ -32,9 +32,9 @@ const portfolioData = {
             badge: "SEATTLE UNIVERSITY: 2022 - 2024",
             icon: "💼",
             bullets: [
-                "Bullet point one",
-                "Bullet point two",
-                "Bullet point three"
+                "Assisted in teaching undergraduate courses in computer science, focusing on software development and data structures",
+                "Provided technical support and guidance to students in lab sessions and project work",
+                "Contributed to the development and maintenance of university IT systems and infrastructure"
             ]
         },
         {
@@ -44,9 +44,9 @@ const portfolioData = {
             badge: "ACUTE INFORMATICS: 2019 - 2022",
             icon: "💼",
             bullets: [
-                "Bullet point one",
-                "Bullet point two",
-                "Bullet point three"
+                "Architected and maintained a high-throughput Java API processing over 4.2M banking transactions daily, leveraging engineering patterns to eliminate single points of failure and achieve 99.99% uptime",
+                "Engineered on-prem infrastructure for 18 bank tenants with PostgreSQL HA clusters and geo-separated disaster recovery, cutting recovery time from 4 hours to 22 minutes",
+                "Re-engineered core banking API endpoints, improving p95 response time from 220ms to 80ms and lifting SLA compliance from 91% to 99.3% across 6 contracted banks"
             ]
         }
     ],
@@ -54,28 +54,28 @@ const portfolioData = {
     education: [
         {
             id: "edu-uni",
-            institution: "University",
-            degree: "Bachelor of Engineering — Computer Science",
-            badge: "UNIVERSITY NAME — 2022–2026",
+            institution: "Seattle University",
+            degree: "Master of Science in Computer Science",
+            badge: "SEATTLE UNIVERSITY — 2022–2024",
             icon: "🎓",
             bullets: [
-                "Specialized in AI & Data Science",
-                "Relevant coursework: Data Structures, Algorithms, ML, DBMS",
-                "Active member of coding and project clubs"
+                "Worked as a Graduate Teaching Assistant for multiple computer science courses, providing support and mentorship and gaining experience from University IT department as an Information Technology Professional",
+                "Relevant coursework: Distributed Systems, Parallel Computing, Software Architecture and Refactoring, Computer graphics and 3D Game Development",
+                "Honors: Dean's List 3 times"
             ]
         },
         {
-            id: "edu-school",
-            institution: "High School",
-            degree: "Higher Secondary Certificate",
-            badge: "SCHOOL NAME — 2020–2022",
+            id: "edu-uni",
+            institution: "Ganpat University",
+            degree: "Bachelor of Science in Information Technology, Major: Infrastructure and Cloud Computing",
+            badge: "GANPAT UNIVERSITY — 2018–2021",
             icon: "🎓",
             bullets: [
-                "Science stream with Mathematics, Physics, Chemistry",
-                "Graduated with distinction",
-                "Participated in science olympiads"
+                "Collaborated with multiple professors to organize and host hackathons while simultaneously gaining hands-on industry experience as a student employee at a banking startup",
+                "Relevant coursework: Data Structures and Algorithms, Database Management Systems, Computer Networks, Operating Systems, Cloud Computing",
+                "Honors: Dean's List 6 times, Gold Medal for highest GPA in the department"
             ]
-        }
+        },
     ],
 
     // Skills are split into 3 marquee rows.
@@ -125,44 +125,44 @@ const portfolioData = {
     projects: [
         {
             size: "xl",
-            title: "Project Alpha",
+            title: "AI-Powered E-Commerce Intelligence Platform",
             image: "",
-            description: "A full-stack web application that solves a real-world problem end-to-end. Built with React on the frontend, Node.js and Express on the backend, and MongoDB for data persistence. Features real-time updates via WebSockets, JWT-based auth, and a fully responsive brutalist UI.",
+            description: "Built a full-stack e-commerce platform with an AI-powered personal assistant, enabling sellers to query sales performance and trends conversationally via phone in real time. Developed the backend with Node.js, Express, and MongoDB, integrating OpenAI's API for natural language processing. The frontend was built with React, providing a seamless user experience for managing products and interacting with the AI assistant.",
             tags: ["React", "Node.js", "Express", "MongoDB", "WebSockets", "JWT"],
-            github: "https://github.com/",
-            live: "https://yourproject.com"
+            github: "https://github.com/kapish-patel/Programming-at-SeattleU/tree/main/CPSC-5200%20Software%20Architecture%20and%20Design/Project",
+            live: ""
         },
         {
             size: "l",
-            title: "Project Beta",
-            description: "A data pipeline and dashboard built to aggregate and visualise insights from multiple APIs. Python on the backend, Pandas for transformation, and a custom chart renderer on the frontend.",
-            tags: ["Python", "Pandas", "Flask", "JavaScript"],
-            github: "https://github.com/",
+            title: "Dine-Easy: Restaurant Reservation System",
+            description: "Built a full-stack restaurant reservation and online ordering platform that streamlines the dine-in experience for customers while optimizing table turnover and time management for restaurants.",
+            tags: ["Angular", "Node.js", "TypeScript", "JavaScript", "MongoDB", "Docker", "Azure"],
+            github: "https://github.com/kapish-patel/Dine-Easy",
             live: ""
         },
         {
             size: "m",
-            title: "Project Gamma",
-            description: "CLI tool that automates repetitive dev tasks. Saves roughly 30 minutes per day.",
-            tags: [],
-            github: "https://github.com/",
+            title: "Sip-Snap: Social media app for sharing and discovering coffee shops",
+            description: "Built a mobile app for discovering local coffee shops, empowering users to share authentic reviews and recommendations for drinks and menu items.",
+            tags: ["Flutter", "Dart", "Firebase", "Google Maps API", "Cloud Functions", "OAuth", "CI/CD", "Unit Testing"],
+            github: "https://github.com/kapish-patel/SipSnap",
             live: ""
         },
         {
             size: "s",
-            title: "Project Delta",
-            description: "",
-            tags: ["TypeScript", "Node.js"],
-            github: "https://github.com/",
+            title: "Local Brew: Coffee Shop 2D Game",
+            description: "Building a 2D coffee shop simulation game where players manage and grow their own café, brewing and selling coffee in an immersive entrepreneurial experience.",
+            tags: ["Java", "Game Design", "Design Patterns", "OOP", "JUnit"],
+            github: "https://github.com/kapish-patel/LocalBrew",
             live: ""
         },
         {
             size: "xs",
             // Each entry in `projects` shows as a row: title + link(s)
             projects: [
-                { title: "Project Epsilon", github: "https://github.com/", live: "" },
-                { title: "Project Zeta",    github: "https://github.com/", live: "" },
-                { title: "Project Eta",     github: "https://github.com/", live: "" }
+                { title: "Game Of Life", github: "https://github.com/kapish-patel/Programming-at-SeattleU", live: "" },
+                { title: "Health Activity Tracker",    github: "https://github.com/kapish-patel/Programming-at-SeattleU", live: "" },
+                { title: "Money Exchange Bot",     github: "https://github.com/kapish-patel/Programming-at-SeattleU", live: "" }
             ]
         }
     ]
