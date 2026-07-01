@@ -165,5 +165,57 @@ const portfolioData = {
                 { title: "Money Exchange Bot",     github: "https://github.com/kapish-patel/Programming-at-SeattleU", live: "" }
             ]
         }
-    ]
+    ],
+
+    beyondCode: {
+        pages: [
+            {
+                id: "blog",
+                title: "Tech Blog",
+                icon: "✍️",
+                href: "./pages/blog/blog.html",
+                description: "Thoughts on building, debugging, and learning in public.",
+                type: "posts",
+                items: []
+            },
+            {
+                id: "photography",
+                title: "Photography",
+                icon: "📷",
+                href: "./pages/photography.html",
+                description: "Street, architecture, and anything that catches the light wrong.",
+                type: "gallery",
+                heroImage: "../IMG_7119.JPG",
+                location: "NEW YORK CITY - PRIMARY LOCATION",
+                items: []
+            },
+            {
+                id: "cooking",
+                title: "Cooking",
+                icon: "🍳",
+                href: "./pages/cooking.html",
+                description: "Experiments in the kitchen - some planned, most improvised. Some edible.",
+                type: "recipes",
+                items: []
+            },
+            {
+                id: "music",
+                title: "Music",
+                icon: "🎵",
+                href: "./pages/music.html",
+                description: "What's been on the playlist - coding sessions, commutes, and everything in between.",
+                type: "posts",
+                items: []
+            },
+            {
+                id: "outdoors",
+                title: "Outdoors",
+                icon: "🥾",
+                href: "./pages/outdoors.html",
+                description: "Trails, peaks, and places worth the climb. I go outside to remember the scale of things.",
+                type: "trails",
+                items: []
+            }
+        ]
+    }
 };
